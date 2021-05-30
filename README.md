@@ -51,6 +51,16 @@
 <link rel="canoncial" href="사이트주소">
 ```
 
+### SEO 하지 말아야할 것
+
+- [ ]  사이트에서 텍스트로 쓸 수 있는 것을 이미지로 만들지 않기 → 사이트에 텍스트가 많아야 검색 로봇이 사이트의 특성을 파악할 수 있다.
+- [ ]  링크 이동은 자바스크립트로 하지 않기. `location.href` 사용하지 않는다.
+- [ ]  사이트를 복사하여 여러 개의 사이트로 만들지 않기
+- [ ]  모든 사이트 title과 description응 꼭 다르게 하기
+- [ ]  모든 페이지 meta 태그에 noindex 처리 되어 있다면 제거하기 → 검색에서 제외될 수 있다.
+- [ ]  모바일에 최적화된 사이트를 만든다
+- [ ]  모바일에 최적화된 [m.sample.com](http://m.sample.com) 같은 별도의 사이트가 있을 때 꼭 `canonical` 을 추가한다.
+
 ## References
 
 [https://blog.naver.com/ourbliss90/221870861853](https://blog.naver.com/ourbliss90/221870861853)
